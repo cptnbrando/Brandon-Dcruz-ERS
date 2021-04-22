@@ -1,0 +1,56 @@
+:root {
+    --color: white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.radio {
+  font-size: 2.25rem;
+  color: var(--color);
+}
+
+.radio {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-gap: 0.5em;
+}
+
+#newReimbursementForm label {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+#amountInput {
+    width: 125px;
+    display: inline-block;
+}
+
+#descriptionInput {
+    width: 65vw;
+    height: 30vh;
+}
+
+#recieptInput {
+    width: 300px;
+    display: inline-block;
+}
+
+#newReimbursement {
+  display: none;
+}
+
+#pending {
+  display: none;
+}
+
+.table-responsive {
+  overflow-x: hidden;
+}
+
+#reimbursementTable_length {
+  display: none;
+}
