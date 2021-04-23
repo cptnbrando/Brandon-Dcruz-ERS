@@ -2,7 +2,8 @@
 
 ## Project Description
 
-A Javalin full-stack application that allows a company to manage reimbursement requests for employees
+A Javalin full-stack application that allows a company to manage reimbursement requests for employees.
+This was created as Project 1 for the Revature training program in February 2021.
 
 ## Technologies Used
 
